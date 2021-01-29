@@ -1,5 +1,5 @@
-from pgl.distributed.graph_client import DistCPUGraphClient
-from pgl.distributed.dist_sample import metapath_randomwalk
+from pgl.contrib.distributed.graph_client import DistCPUGraphClient
+from pgl.contrib.distributed.dist_sample import metapath_randomwalk
 
 g = DistCPUGraphClient("server_endpoints", shard_num=2)
 

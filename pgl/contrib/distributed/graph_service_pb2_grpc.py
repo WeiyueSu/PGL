@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-from pgl.distributed import graph_service_pb2 as graph__service__pb2
+from pgl.contrib.distributed import graph_service_pb2 as graph__service__pb2
 
 
 class GraphServiceStub(object):
